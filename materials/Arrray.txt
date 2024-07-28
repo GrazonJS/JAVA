@@ -1,0 +1,55 @@
+Find a peak element which is not smaller than its neighbours
+Given an array arr of n elements that is first strictly increasing and then maybe strictly decreasing, find the maximum element in the array.
+
+Note: If the array is increasing then just print the last element will be the maximum value.
+
+Example:
+
+Input: array[]= {5, 10, 20, 15}
+Output: 20
+Explanation: The element 20 has neighbors 10 and 15, both of them are less than 20.
+
+Input: array[] = {10, 20, 15, 2, 23, 90, 67}
+Output: 20 or 90
+Explanation: The element 20 has neighbors 10 and 15, both of them are less than 20, similarly 90 has neighbors 23 and 67.
+
+The following corner cases give a better idea about the problem. 
+
+If the input array is sorted in a strictly increasing order, the last element is always a peak element. For example, 50 is peak element in {10, 20, 30, 40, 50}.
+If the input array is sorted in a strictly decreasing order, the first element is always a peak element. 100 is the peak element in {100, 80, 60, 50, 20}.
+If all elements of the input array are the same, every element is a peak element
+--------------------------------------------------------------------------------------------------------------------------------------------------
+
+Three arrays of same size are given. Find a triplet such that maximum – minimum in that triplet is minimum of all the triplets. A triplet should be selected in a way such that it should have one number from each of the three given arrays. 
+
+If there are 2 or more smallest difference triplets, then the one with the smallest sum of its elements should be displayed.
+
+Examples : 
+
+Input : arr1[] = {5, 2, 8}
+    arr2[] = {10, 7, 12}
+    arr3[] = {9, 14, 6}
+Output : 7, 6, 5
+
+Input : arr1[] = {15, 12, 18, 9}
+    arr2[] = {10, 17, 13, 8}
+    arr3[] = {14, 16, 11, 5}
+Output : 11, 10, 9
+-------------------------------------------------------------------------------------------------------------
+
+Given an array arr[] of size N and Q queries of type {qs, qe} where qs and qe denote the starting and ending index of the query, the task is to find the GCD of all the numbers in the range.
+
+Examples:
+
+Input: arr[] = {2, 3, 60, 90, 50};
+Index Ranges: {1, 3}, {2, 4}, {0, 2}
+Output: GCDs of given ranges are 3, 10, 1
+Explanation: Elements in the range [1, 3] are {3, 60, 90}.
+The GCD of the numbers is 3.
+Elements in the range [2, 4] are {60, 90, 50}.
+The GCD of the numbers is 10.
+Elements in the range [0, 2] are {2, 3, 60}.
+The GCD of the numbers is 1 as 2 and 3 are co-prime.
+--------------------------------------------------------------------------------------------------------
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  

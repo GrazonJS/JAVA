@@ -1,0 +1,21 @@
+Greet is an interface with two methods: sayHello() and a static method sayGoodbye().
+The sayGoodbye() method in the Greet interface has a default implementation, which prints "Goodbye!".
+Person is a class that implements the Greet interface. 
+It provides an implementation for the sayHello() method.
+In the Main class, an instance of Person is created. 
+The sayHello() method is called on this instance, which prints "Hello, there!" to the console. 
+Then, the sayGoodbye() method is called, which invokes the default implementation from the interface, printing "Goodbye!".
+
+---------------------------------------------------------------------------------------------------------------------
+
+Flyable is an interface that declares a method fly().
+Swimmable is an interface that declares a method swim().
+Bird is a class that implements both Flyable and Swimmable interfaces. It provides implementations for both fly() and swim() methods.
+In the Main class, an instance of Bird is created. 
+It can both fly and swim, so the fly() and swim() methods are called on the bird object, resulting in printing "Bird is Flying" and "Bird is Swimming" to the console, respectively.
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+The MyInterface interface contains a static method staticMethod(), a default method defaultMethod(), and an abstract method abstractMethod().
+The MyClass class implements the MyInterface interface and provides implementations for the abstract methods.
+In the main method of InterfaceDemo, we demonstrate calling the static method directly on the interface, calling the default method through an instance of MyClass, and calling the abstract method implemented in MyClass.
+------------------------------------------------------------------------------------------------------------------------------------                                                                                                                                                                                                                                                                                                                                                                                                
